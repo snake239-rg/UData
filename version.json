@@ -1,0 +1,6 @@
+{
+  "versionCode": 1,
+  "arm64v8aUrl": "https://github.com/DamianBensi/UData/releases/download/UData/cpp-release.apk",
+  "armeabiv7aUrl": "https://github.com/DamianBensi/UData/releases/download/UData/cpp-release.apk",
+  "default": "https://github.com/DamianBensi/UData/releases/download/UData/cpp-release.apk"
+}

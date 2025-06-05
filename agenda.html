@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción de la página">
+    <meta name="keywords" content="palabras, clave, separadas, por, comas">
+    <meta name="author" content="Autor de la página">
+    <title>Título de la página</title>
+    <style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+
+		#miIframe {
+			width: 600px;
+			height: 100vh;
+			border: none; /* Elimina el borde */
+		}
+		
+		.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hace que el contenedor ocupe toda la pantalla */
+}
+
+    </style>
+</head>
+<body>
+
+<header></header>
+
+<main>
+<div class="iframe-container">
+	<iframe  id="miIframe" src="https://www.ole.com.ar/wg-agenda-deportiva/" title="" frameborder="0" scrolling="0" allow="accelerometer; muted; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</div>
+</main>
+
+<footer></footer>
+
+</body>
+
+<script>
+document.documentElement.style.overflow = 'hidden';
+document.body.style.overflow = 'hidden';
+</script>
+
+
+</html>
+
